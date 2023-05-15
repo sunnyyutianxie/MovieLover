@@ -1,4 +1,4 @@
-This is a website that users can search by movie names. Users can get infomation about movie review, actors, etc.
+This is a website that users can search by movie names or actors. Users can get infomation about movie review, actors, etc.
 
 The API is has some bug but some movie names are working perfectly:
 For example: godfather; ocean; avatar, king kong
