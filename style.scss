@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Imdb;
+  color: #323232;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  color: #deb522;
+  background-color: #323232;
+  margin: 0;
+  padding: 4rem 0;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+  margin: 0;
+
+  &__form {
+    display: flex;
+    &-btn {
+      background-color: white;
+      margin-right: 0.5rem;
+      border-radius: 0.5rem;
+      // border-color: #128bb5;
+      & img {
+        width: 1.7rem;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    &--input {
+      color: black;
+      font-size: 1rem;
+      font-weight: 400;
+      padding-left: 1rem;
+      border-radius: 0.5rem;
+      background-color: #deb522;
+      border-style: none;
+
+      &::placeholder {
+        font-size: 1rem;
+        border-style: none;
+
+        color: rgb(58, 58, 58);
+      }
+    }
+  }
+}
+
+.movies {
+  margin: 0;
+  font-size: 1.5rem;
+
+  & div {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  &__poster {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    align-items: center;
+    padding-left: 6rem;
+    cursor: pointer;
+
+    transition: opacity 0.5s ease;
+
+    &:hover {
+      opacity: 80%;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0 2rem 6rem;
+    margin: 0;
+    text-shadow: 1px 2px 2px rgb(193, 193, 193);
+  }
+  &__year,
+  &__actors,
+  &__imdb,
+  &__des,
+  &__rate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    padding: 0 0 1rem 6rem;
+    margin: 0;
+  }
+
+  &__imdb {
+    display: none;
+  }
+  &__des {
+    width: 50%;
+  }
+  & div {
+    padding-bottom: 7rem;
+  }
+}
+
+button {
+  background-color: #deb522;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+
+  border-style: none;
+}
+
+// #scrollToTopBtn {
+//   display: none; /* Hide the button by default */
+//   position: fixed;
+//   bottom: 20px;
+//   right: 20px;
+//   z-index: 999;
+//   background-color: #000;
+//   color: #fff;
+//   padding: 10px;
+//   border-radius: 5px;
+//   cursor: pointer;
+// }

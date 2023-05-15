@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Imdb;
+  color: #323232;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  color: #deb522;
+  background-color: #323232;
+  margin: 0;
+  padding: 4rem 0;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+  margin: 0;
+}
+.searchBox__form {
+  display: flex;
+}
+.searchBox__form-btn {
+  background-color: white;
+  margin-right: 0.5rem;
+  border-radius: 0.5rem;
+}
+.searchBox__form-btn img {
+  width: 1.7rem;
+  padding: 0;
+  margin: 0;
+}
+.searchBox__form--input {
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+  background-color: #deb522;
+  border-style: none;
+}
+.searchBox__form--input::-moz-placeholder {
+  font-size: 1rem;
+  border-style: none;
+  color: rgb(58, 58, 58);
+}
+.searchBox__form--input::placeholder {
+  font-size: 1rem;
+  border-style: none;
+  color: rgb(58, 58, 58);
+}
+
+.movies {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.movies div {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.movies__poster {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  align-items: center;
+  padding-left: 6rem;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+.movies__poster:hover {
+  opacity: 80%;
+}
+.movies__title {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem 0 2rem 6rem;
+  margin: 0;
+  text-shadow: 1px 2px 2px rgb(193, 193, 193);
+}
+.movies__year, .movies__actors, .movies__imdb, .movies__des, .movies__rate {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding: 0 0 1rem 6rem;
+  margin: 0;
+}
+.movies__imdb {
+  display: none;
+}
+.movies__des {
+  width: 50%;
+}
+.movies div {
+  padding-bottom: 7rem;
+}
+
+button {
+  background-color: #deb522;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+  border-style: none;
+}/*# sourceMappingURL=style.css.map */

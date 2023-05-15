@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Movie Lover</title>
+  </head>
+  <body>
+    <!--Header Section-->
+    <header class="header">
+      <h1 class="header__title">MOVIES LOVERS</h1>
+    </header>
+
+    <!--Input Section-->
+    <section class="searchBox">
+      <form class="searchBox__form">
+        <button type="submit" class="searchBox__form-btn">
+          <img src="./icons8-search.gif" alt="" />
+        </button>
+        <input
+          type="name"
+          class="searchBox__form--input"
+          id="name"
+          name="name"
+          placeholder="Type movies"
+          required
+        />
+      </form>
+    </section>
+
+    <!-- This movies class contains info of the movie from API -->
+    <div class="movies"></div>
+    <!-- <footer>
+      <button id=“scrollToTopBtn”>Scroll to Top</button>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
